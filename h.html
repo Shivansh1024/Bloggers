@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+            margin: auto;
+            box-sizing: border-box;
+           --webkit-font-smotthing:antialised;
+            
+        }
+        body{
+            height: 800px;
+    font-family: 'poppins',sans-serif;
+    overflow-x: hidden;
+        }
+        input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  top: -50px;
+}
+
+input[type=submit]:hover {
+  background-color: orangered;
+}
+
+.contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  
+}
+@media screen and (max-width:750px)
+{
+   *
+   {
+     margin: 0;
+     
+   }
+   
+}
+
+
+         
+
+       
+        </style>
+    <div style="padding: 5px;border: 2px solid red;height: 70px;background-color:crimson;color: white;max-width: 100vw;">
+    <p id="blog" style="position: relative;right: -60px;top:10px;font-size: 30px;padding-bottom: 2px;">Blogger</p>
+    <div class="topnav" style="position: relative;right: -1010px;top: -15px;">
+        <a class="active" href="#home" style="text-decoration: none;color: white;font-size: 20px;">Home &nbsp;</a>
+        <a href="#about" style="text-decoration: none;color: white;color: white;font-size: 20px;">About &nbsp;</a>
+        <a href="#contact" style="text-decoration: none;color: white;color: white;font-size: 20px;">Contact &nbsp;</a>
+        <a href="l.html" style="text-decoration: none;color: white;color: white;font-size: 20px;">Articles &nbsp;</a>
+        <input type="tex" placeholder="Search..blog ">
+        
+      </div>
+    <img src="img/Screenshot 2022-04-08 012110.png" slt="blog" style="position: relative;right: -10px;top: -360px;padding-bottom:6rem;">
+    </div>
+    <div style="background-image: url(img/HTfq.gif);background-size:cover;height:800px;">
+    <h2 style="position: relative;top: 120px;right: -390px;color:cornsilk;font-family:'Times New Roman', Times, serif;font-weight: 100;font-size: 330%;">Publish your passions, your way </h2>
+    <h4 style="position: relative;top: 130px;right: -443px;color:cornsilk;font-family:'Times New Roman', Times, serif;font-weight: 100;font-size: 170%;">Create a unique and beautiful blog. It’s easy and free. </h4>
+    <div>
+      <a href="blog.html" style="padding: 5px;border: 2px solid red;background-color: red;color: white;text-decoration: none;top: 180px;position: relative;right: -678px;font-size: 120%;" type="s">Create Blog</a>
+    </div>
+      
+    </div>
+    <div id="about" style="background-color: aqua;">
+        <h1 align="center" style="position: relative;top: 110px;">About</h1>          
+    <div style="padding: 5px;border: 0px solid rgb(128, 128, 128);background-color:grey;width: 680px;height: 275px;right:400px;top:170px;position: relative;font-family: sans-serif;border-radius: 1rem;font-size:120%"> 
+           
+           <p>Hi, I am Shivansh Sinha, a first-year student of Mechanical Engineering. This is a website created by me. This website is the best place for all bloggers who love to write and read. Here you can find amazing blogs written by others as well as you get a chance to showcase your writing skills by writing a blog that is viewed by thousands of our users.Ever since I can remember, I have always been on the hunt for new stories. Whether it’s a comic or a novel, I just couldn’t stop looking for more. When my friends started to ask me for book advice, I knew this was something I wanted to do—help people to find the perfect next adventure.My recommendations are honest and objective and are meant to help you find exactly what you’re looking for. I’m here to guide you through each story from start to finish, and also help you write your own with useful writing tips. Let’s get lost in a good book together!</p>
+    </div>
+    <img src="img/GettyImages-962633986.webp" style="position: relative;right: -950px;top: -150px;width: 500px;border-radius: 2rem;">
+    </div>
+    <div id="contact" style="position: relative;top: 40px;">
+        <h1 align="center">Let me know what's on your mind</h1>
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+      
+          <input type="submit" value="Submit" >
+        </form>
+      </div>
+      <footer style="background-color: black;">
+
+      </footer>
+</body>
+</html>
